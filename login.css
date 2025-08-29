@@ -1,0 +1,53 @@
+body {
+    background: #f5f6fa;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    margin: auto;
+    background: #fff;
+    padding: 32px 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    text-align: center;
+    max-width: 350px;
+}
+h1 {
+    color: #2d3436;
+    margin-bottom: 24px;
+}
+.btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.btn-aluno {
+    background: #0984e3;
+    color: #fff;
+}
+.btn-cozinha {
+    background: #00b894;
+    color: #fff;
+}
+.btn-inspetor {
+    background: #fdcb6e;
+    color: #2d3436;
+}
+.btn:hover {
+    opacity: 0.9;
+}
+.copyright {
+    text-align: center;
+    margin-top: 32px;
+    color: #636e72;
+    font-size: 14px;
+}
